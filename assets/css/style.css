@@ -101,7 +101,7 @@ a {
 }
 
 #cm {
-    margin-top: 260%;
+    margin-top: 240%;
 }
 
 .projects {
@@ -199,7 +199,9 @@ p {
 
 dl {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    font-size: 30px;
 }
 
 .bigBox:hover {
