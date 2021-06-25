@@ -2,64 +2,71 @@
 <html lang="en-US">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Max Martinez Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <title>Max Martinez Portfolio</title>
 </head>
-<body>    
-    <header>
-        <h1>Max Martinez</h1>
-          <nav>
+
+
+    <header id= "test">
+        <h1 id= "oneH">Max Martinez</h1>
+        <nav>
             <ul>
-             <li><a href="#am">About Me</a></li>
-             <li><a href="#wk">Work</a></li>
-             <li><a href="#cm">Contact Me</a></li>
+                <li><a href="#am">About Me</a></li>
+                <li><a href="#wk">Work</a></li>
+                <li><a href="#cm">Contact Me</a></li>
             </ul>
-          </nav>  
+        </nav>
+
     </header>
-  <img class="skyy">
-<span class="flexy"> 
- <aside> 
-    <div id="am" class="asid">About Me</div>
-    <div id="wk" class="asid">Work</div>
-    <div id="cm" class="asid">Contact Me</div> 
- </aside>
- <div class="projects">
-   <p>
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-     culpa qui officia deserunt mollit anim id est laborum
-   </p>
-  <div class= "flexBoxes">
-    <a href="*" id="bigBox" class="projectt">
-      <h2>First Application</h2>
-    </a>
-    <a href="*" id="smallBox" class="project2">
-      <h3>Application 2</h3>
-    </a>
-    <a href="*" id="smallBox" class="project3">
-      <h3>Application 3</h3>
-    </a>
-    <a href="*" id="smallBox" class="project4">
-      <h3>Application 4</h3>
-    </a>
-    <a href="*" id="smallBox" class="project5">
-      <h3>Application 5</h3>
-    </a>
-  </div>
-<footer class="Con">
-  <dl>
-    <dt><a href="*">555-555-5555</a></dt>
-    <dt><a href="*">Maxisgreat@yahoo.com</a></dt>
-    <dt><a href="*">GitHub</a></dt>
-    <dt><a href="*">LinkedIn</a></dt>
-  </dl>
-</footer>
- </div>
-</span>
+    <button id="mode" onclick= "darkmode();" >Switch mode</button>
+<body>    
+    
+    <img class="skyy">
+    <span class="flexy">
+        <aside class="side">
+            <div id="am" class="asid">About Me</div>
+            <div id="wk" class="asid">Work</div>
+            <div id="cm" class="asid">Contact Me</div>
+        </aside>
+        <div class="projects">
+            <p id="paraBorder" class="border">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+                I am currenting studying at UTSA learning Full Stack Development and looking for future job interests. 
+                I want to deluge myself in many languages as possible so that I can make a decision 
+                on which career path in best for me in my journey.
+            </p>
+            <div id="flexBorder"class="flexBoxes border">
+                <a href="https://zenitramxam.github.io/covidstats/" class="bigBox" id="projectt">
+                    <h2>COVID-19 Stats & Vaccine</h2>
+                </a>
+                <a href="https://zenitramxam.github.io/WorkDayScheduler/" class="smallBox" id="project2">
+                    <h3>Work Day Scheduler</h3>
+                </a>
+                <a href="https://zenitramxam.github.io/PasswordGen/" class="smallBox" id="project3">
+                    <h3>Password Generator</h3>
+                </a>
+            </div>
+            <footer class="con">
+                <dl id="footBorder" class="border">
+                    <dt><a href="#cm">702-907-1883</a></dt>
+                    <dt><a href="#cm">xamcode@yahoo.com</a></dt>
+                    <dt><a href="https://github.com/zenitramxam">GitHub</a></dt>
+                    <dt><a href="https://www.linkedin.com/in/max-martinez-06766020b/">LinkedIn</a></dt>
+                </dl>
+            </footer>
+        </div>
+    </span>
 </body>
+
+
 </html>

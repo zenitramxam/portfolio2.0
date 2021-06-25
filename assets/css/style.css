@@ -5,9 +5,30 @@
 }
 
 body {
-    background-color: #ffffef;
+    background-color: #d9e9e8;
+    color: #1a1a1a;
 }
 
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+.ad {
+    color:#d9e9e8;
+}
+
+
+#mode {
+    float: right;
+    margin-right: 2%;
+    background-color: rgb(0, 159, 170);
+    color: white;
+}
+
+.change {
+    cursor: pointer;
+}
 header {
     background-color:#004391;
     padding: 15px;
@@ -25,6 +46,7 @@ header nav {
 
 nav {
     padding-top: 10px;
+    display: flex;
 }
 
 header h1{
@@ -45,47 +67,45 @@ li {
 }
 
 a {
-    color: rgb(0, 217, 255);
+    color: #00d9ff;
 }
 
 .flexy {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
 
 }
 
 .skyy {
     height: 300px;
     width: 100%;
-    background-image: url("../images/sky.jpg");
+    background-image: url("../images/codeline.jpg");
     background-size: cover;
     background-position: 0% 80%;
 }
 
-aside {
-    max-width: 20%;
-    height: 500px;
-    margin-top: 60px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-    display: inline-block;
+.side {
+    display:flex;
+    flex-direction: column;
     font-size: 40px;
     color: #004391;
-  
-    
+
 }
 
-.asid {
-    padding-bottom: 50%;
-    border-right: 5px solid #004391;
-    margin-bottom: 40%;
+#am {
+    margin-top: 40%;
 }
 
 #wk {
-    padding-bottom: 450px;
+    margin-top: 130%;
 }
+
+#cm {
+    margin-top: 260%;
+}
+
 .projects {
+    display: inline-block;
     height: 500px;
     width: 70%;
     margin-top: 70px;
@@ -101,25 +121,32 @@ aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
-#bigBox {
+#projectt {
     height: 45%;
     width: 93.333%;
-    background-image: url("../images/tree.jpg");
+    background-image: url("../images/covidss.png");
     background-size: cover;
+    background-position: 0% 20%;
+}
+
+.bigBox {
+    height: 45%;
+    width: 93.333%;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
     position: relative;
 }
 
-#bigBox h2 {
+.bigBox h2 {
     background-color: #004391;
     color: white;
     width: fit-content
 }
 
-#smallBox {
+.smallBox {
     height: 20%;
     width: 45%;
     border-left: 3px solid black;
@@ -128,65 +155,62 @@ aside {
     
 }
 
-#smallBox h3 {
+.smallBox h3 {
     background-color: #004391;
     color: white;
     padding-left: 5px;
     width: fit-content;
 }
 
-.project2 {
-    background-image: url("../images/burger.jpg");
+#project2 {
+    background-image: url("../images/workss.png");
     background-size: cover;
     background-position: center;
 }
 
-.project3 {
-    background-image: url("../images/flower.jpg");
+#project3 {
+    background-image: url("../images/passwordss.png");
     background-size: cover;
     background-position: center;
 }
 
-.project4 {
-    background-image: url("../images/Moon.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.project5 {
-    background-image: url("../images/tiger.jpg");
-    background-size: cover;
-    background-position: 0% 20%;
-}
 
 .con {
+    display: flex;
+    flex-direction: column;
     height: 200px;
     min-width: 95%;
+    margin-top: 10%;
     margin-bottom: 75px;
+    
 }
 
-.con dl {
-    float: right;
+p {
+    padding-left: 3%;
+}
+
+.border {
+    border-left: 5px solid #004391;
+}
+
+.newborder {
+    border-left: 5px solid #00d9ff;
 }
 
 dl {
-    margin-top: 125px;
-    font-size: 25px;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-dt {
-    display: inline-block;
-    padding-right: 5%;
-    text-decoration: underline;
+.bigBox:hover {
+    border-right: 5px solid #00d9ff;
+    border-bottom: 5px solid #00d9ff;
+    box-shadow: 10px 10px grey;
+    
 }
 
-#bigBox:hover {
-    border-right: 5px solid red;
-    border-bottom: 5px solid red;
-}
-
-#smallBox:hover {
-    border-left: 5px solid red;
-    border-bottom: 5px solid red;
+.smallBox:hover {
+    border-left: 5px solid #00d9ff;
+    border-bottom: 5px solid #00d9ff;
+    box-shadow: 7px 7px grey;
 }
